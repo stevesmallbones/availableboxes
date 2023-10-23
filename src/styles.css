@@ -1,0 +1,91 @@
+* {
+    transition: all 0.2s ease-in, color 0.2s ease-in;
+}
+
+body {
+    margin: 0;
+    padding:10px 30px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace!important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background:#f3f3f3!important;
+}
+
+h1.title {
+    font-size:36px;
+    margin:0 0 20px 0;
+}
+
+.lastupdated span {
+    font-weight:bold;
+    background:black;
+    color:white;
+    padding: 0 4px;
+}
+
+.refresh {
+    margin-bottom:15px;
+    padding-bottom:15px;
+}
+
+/* Full Screen */
+.user-output {
+    width:25%;
+    padding:2.5%;
+    float:left;
+    font-size:12px;
+    border:1px dashed #ccc;
+    background:#FFFFFF;
+}
+
+@media screen and (max-width: 1180px) {
+    .user-output {
+        width:33%;
+    }
+  }
+
+  @media screen and (max-width: 870px) {
+    .user-output {
+        width:50%;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    .user-output {
+        width:100%;
+    }
+  }
+
+.user-output h2 {
+    font-size:16px;
+}
+
+.user-output h3 {
+    font-size:14px;
+    font-weight:bold;
+    min-height:38px;
+}
+
+.box-size {
+    margin-bottom: 20px;
+}
+
+.user-output .box-size .price {
+    font-weight:bold;
+}
+
+.box-size-item {
+    padding: 5px;
+    width:23%;
+    margin: 1%;
+    display: inline-block;
+    color:white;
+}
+
+.box-1, .box-3, .box-5 {
+    background-color: #EE0632;
+}
+
+.box-2, .box-4 {
+    background-color: #412DEE;
+}
